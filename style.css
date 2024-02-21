@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color:#86A7FC;
+  /* color: white; */
+  height: 50px;
+  justify-content: space-between;
+}
+.heading {
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  margin-left: 50px;
+  /* justify-content: center; */
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+.right > button {
+  display: flex;
+  margin-right: 50px;
+  height: 80%;
+  align-items: center;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #3468C0;
+  justify-content: space-around;
+  /* background-color: aqua; */
+  font-size: larger;
+}
+
+#gamePage {
+  /* background-image: url(tictactoe.webp); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 75px);
+  /* background-color: aqua; */
+  margin: auto;
+  /* justify-content: center; */
+  /* align-items: end; */
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 65vmin;
+  height: 65vmin;
+  border: 5px solid #3468C0;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+
+.btn {
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(4, 0, 255);
+  height: 20vmin;
+  width: 20vmin;
+  font-size: 15vmin;
+  color: red;
+  background-color: rgb(245, 226, 201);
+}
+
+/* after game end */
+.newGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+  /* border: 2px solid black; */
+  background-color: bisque;
+}
+.newGame > button {
+  margin-top: 30px;
+  height: 100px;
+  width: 200px;
+  font-size: xx-large;
+  border-radius: 20px;
+}
+
+.vNone {
+  display: none;
+}
+
+#reset {
+  height: 8vmin;
+  width: 20vmin;
+  font-size: 5vmin;
+  font-weight: 800;
+  background-color: pink;
+  color: blue;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: 2px solid #3468C0;
+}
+
+.resetBtn {
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.score{
+  display: grid;
+  /* background-color: aqua; */
+  width: 80vmin;
+  font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vmin;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: auto auto;
+}
+
+.x{
+  background-color: rgb(0, 252, 252);
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid  black;
+}
